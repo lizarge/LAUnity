@@ -13,7 +13,7 @@ import UnityFramework
 
 public class LAUnity: UIResponder, UIApplicationDelegate {
 
-    static let shared = LAUnity()
+    public static let shared = LAUnity()
 
     private let dataBundleId: String = "com.unity3d.framework"
     private let frameworkPath: String = "/Frameworks/UnityFramework.framework"
